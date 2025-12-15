@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+    <style>
+
+       /* Color of the links BEFORE scroll */
+        .navbar-scroll .nav-link,
+        .navbar-scroll .navbar-toggler-icon,
+        .navbar-scroll .navbar-brand {
+        color: #fff;
+        }
+
+        /* Color of the links AFTER scroll */
+        .navbar-scrolled .nav-link,
+        .navbar-scrolled .navbar-toggler-icon,
+        .navbar-scrolled .navbar-brand {
+        color: #fff;
+        }
+
+        /* Color of the navbar AFTER scroll */
+        .navbar-scroll,
+        .navbar-scrolled {
+        background-color: #cbbcb1;
+        }
+
+        .mask-custom {
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, .15);
+        }
+
+        .navbar-brand {
+        font-size: 1.75rem;
+        letter-spacing: 3px;
+        }
+
+    </style>
+  </head>
+
+  <body>
+
+
+
+
+
+
+   <!-- navbar -->
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+            <div class="container">
+                <a class="navbar-brand" href="#!"><span style="color: #5e9693;">應用系統化創新流程進行</span><span
+                        style="color: #e45300;"> 水果酒釀造之研究</span></a>
+                <button class="navbar-toggler" type="button" data-mdb-collapse-init
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Reference</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="#!">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="#!">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!--Section: Design Block-->
+        <section>
+            <!-- Intro -->
+            <div id="intro" class="bg-image vh-100" style="
+                background-image: url('./img/drink/all.jpg');
+              ">
+                <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
+            </div>
+            <!-- Intro -->
+        </section>
+        <!--Section: Design Block-->
+    </header>
+
+   <!-- navbar -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- blog -->
+    <!--Section: Design Block-->
+    <section class="mb-8">
+        <style>
+            .cascading-left {
+                margin-left: -50px;
+            }
+
+            @media (max-width: 991.98px) {
+                .cascading-left {
+                    margin-left: 0;
+                }
+            }
+
+            .custom-height {
+                height: 500px;
+            }
+
+            @media (max-width: 500px) {
+                .custom-height {
+                    height: 650px;
+                }
+            }
+
+            .custom-mt {
+                margin-top: -240px;
+            }
+
+            @media (max-width: 500px) {
+                .custom-mt {
+                    margin-top: -420px;
+                }
+            }
+        </style>
+        <div class="custom-height" style="background-color: #efeff2;">
+            <div class="container py-5">
+                <div class="row my-4">
+                    <div class="col-12">
+                        <p class="display-4 fw-bold ls-tight" style="color: #e45300;">研究動機</p>
+                        <h4 class="mb-0" style="color: #998b89;">Research Motivation</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-mt">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="./img/drink/b01.jpg" class="w-100 rounded-6" alt="Italian city" />
+                </div>
+                <div class="col-lg-5">
+                    <div class="card cascading-left rounded-6 shadow-5">
+                        <div class="card-body px-4 p-4 p-md-5 p-lg-4 p-xl-5">
+                            <h3 class="mb-4 h4">系統化創新流程應用於蘋果酒釀造之品質提升研究</h3>
+                            <p class=" mb-4 h5 lh-base" style="text-align: justify;">
+                                本研究以蘋果酒為例，探討水果酒釀造技術，並結合系統化創新流程，透過文獻分析與實驗方式，改善釀造中的溫度、酵母、酸度等關鍵變因，以提升品質與穩定度。因應輕飲酒文化與永續潮流，水果酒成為新興選擇。本組並以網頁呈現系統化流程，提供初學者與同好交流，讓釀酒更易上手。
+                            </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section: Design Block-->
+<!-- blog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 研究目的 -->
+
+    <!-- Container for demo purpose only -->
+    <div class="container pt-5">
+
+        <!-- Section: Design Block -->
+        <section class="mb-8">
+            <style>
+                .rounded-t-2-5 {
+                    border-top-left-radius: 0.75rem;
+                    border-top-right-radius: 0.75rem;
+                }
+
+                @media (min-width: 992px) {
+                    .rounded-tr-lg-0 {
+                        border-top-right-radius: 0;
+                    }
+
+                    .rounded-bl-lg-2-5 {
+                        border-bottom-left-radius: 0.75rem;
+                    }
+                }
+            </style>
+            <div class="card rounded-6 shadow-3-soft" style="background-color: #fff9f2">
+                <div class="row g-0 d-flex align-items-center">
+                    <div class="col-lg-6 col-xl-5">
+                        <img src="./img/drink/b02.jpg" alt="Author"
+                            class="w-100 rounded-t-2-5 rounded-tr-lg-0 rounded-bl-lg-2-5" />
+                    </div>
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="card-body py-4 py-md-5 py-lg-4 py-xl-5 px-md-5">
+                            <p class="display-4 fw-bold ls-tight" style="color: #e45300;">研究目的</p>
+                            <h4 class="mb-5" style="color: #998b89;">Research Objectives</h4>
+                            <p class="mb-4 h4">1、了解水果酒的釀造、影響因素及營養價值</p>
+                            <p class="mb-4 h4">2、應用系統化創新流程於水果酒的釀造技術</p>
+                            <p class="mb-4 h4">3、建置水果酒釀造網站以釀出適合個人的酒</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Design Block -->
+
+    </div>
+    <!-- Container for demo purpose only -->
+
+
+<!-- 研究目的 -->
+
+
+
+
+
+
+
+
+
+<!-- Container for demo purpose -->
+<div class="container my-5 p-5 shadow-5">
+
+  <!--Section: Design Block-->
+  <section class="mb-10">
+
+    <p class="display-4 fw-bold ls-tight text-center" style="color: #e45300;">風味探索</p>
+
+    <p class="text-center mb-5 mx-auto w-responsive h5">
+      「風味探索」讓使用者依喜好篩選甜度、酸度、果香及口感，系統快速分析並推薦適合的蘋果種類與氣體添加方式。點選推薦蘋果後，可進入「釀造指南」，依個人偏好進行釀酒操作，提升風味與飲用體驗。
+    </p>
+
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Pills navs -->
+        <ul class="nav nav-pills nav-justified mb-3 mx-n2 mt-n2" id="issuesTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="students-tab" data-mdb-pill-init href="#students" role="tab"
+              aria-controls="students" aria-selected="true"><i class="fas fa-graduation-cap me-2"></i>甜度</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="candidates-tab" data-mdb-pill-init href="#candidates" role="tab"
+              aria-controls="candidates" aria-selected="false"><i class="fas fa-users me-2"></i>酸度</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="financial-tab" data-mdb-pill-init href="#financial" role="tab"
+              aria-controls="financial" aria-selected="false"><i class="fas fa-university me-2"></i>口感清爽</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="housing-tab" data-mdb-pill-init href="#housing" role="tab" aria-controls="housing"
+              aria-selected="false"><i class="fas fa-home me-2"></i>入口滑順</a>
+          </li>
+        </ul>
+        <!-- Pills navs -->
+
+        <!-- Pills content -->
+        <div class="tab-content pt-3" id="servicesContent">
+          <div class="tab-pane fade show active" id="students" role="tabpanel" aria-labelledby="students-tab">
+            <div class="row">
+              <div class="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+                <img src="./img/drink/c01.jpg" class="img-fluid shadow-3 rounded"
+                  alt="Sample image" />
+              </div>
+              <div class="col-lg-6">
+                <h4 class="mb-4">甜度口感</h4>
+                <p class="lead mb-0">
+                甜度是蘋果酒風味的關鍵，影響口感與整體平衡。甜度受蘋果糖分與發酵程度影響，甜度高的品種如富士、蜜蘋果會帶來自然果香，長時間發酵使酒偏乾，縮短或加糖可保留甜味。適度甜味平衡酸味，入口順口。「風味探索」頁面依使用者偏好推薦蘋果品種與釀造方式，打造專屬風味蘋果酒。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="candidates" role="tabpanel" aria-labelledby="candidates-tab">
+            <div class="row">
+              <div class="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+                <img src="./img/drink/c02.jpg"
+                  class="img-fluid shadow-3 rounded" alt="Sample image" />
+              </div>
+              <div class="col-lg-6">
+                <h4 class="mb-4">酸度口感</h4>
+                <p class="lead mb-0">
+                  酸度是蘋果酒風味的關鍵，決定酒液的清爽感與層次。天然酸度受蘋果品種與發酵控制影響，酸味過強會偏刺，過低則口感平淡。選擇酸度高的品種如青蘋果可增清新感，發酵溫度與時間調整可平衡酸甜。使用者在「風味探索」頁面可依偏好選擇酸度，系統將推薦合適的蘋果品種與釀造方式，打造入口清爽、層次分明的蘋果酒。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="financial" role="tabpanel" aria-labelledby="financial-tab">
+            <div class="row">
+              <div class="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+                <img src="./img/drink/c03.jpg"
+                  class="img-fluid shadow-3 rounded" alt="Sample image" />
+              </div>
+              <div class="col-lg-6">
+                <h4 class="mb-4">口感清爽</h4>
+                <p class="lead mb-0">
+                  口感清爽是蘋果酒的重要特性，使酒液入口輕盈順口、回味愉悅。清爽感受受酸度、甜度與氣泡影響，適度酸味增清新感，平衡甜度避免厚重，添加二氧化碳或氮氣可使氣泡細緻。使用者在「風味探索」頁面可依喜好調整清爽程度，系統將推薦適合的蘋果品種、釀造方式與氣體添加，打造入口輕盈、回味舒適的蘋果酒。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="housing" role="tabpanel" aria-labelledby="housing-tab">
+            <div class="row">
+              <div class="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+                <img src="./img/drink/c03.jpg"
+                  class="img-fluid shadow-3 rounded" alt="Sample image" />
+              </div>
+              <div class="col-lg-6">
+                <h4 class="mb-4">入口滑順</h4>
+                <p class="lead mb-0">
+                  入口滑順是蘋果酒的重要感官指標，使酒液在口中流暢、柔和舒適。滑順感受受酸甜平衡、酒精濃度與氣泡細緻度影響，適度酸甜減少刺喉感，過高酒精會偏烈，細緻氣泡提升柔滑度。使用者在「風味探索」頁面可選擇滑順程度，系統將推薦適合的蘋果品種、釀造方式與氣體添加，打造柔順、順口易飲的蘋果酒。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pills content -->
+
+      </div>
+    </div>
+
+  </section>
+  <!--Section: Design Block-->
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- blog -->
+
+    <!-- Container for demo purpose -->
+    <div class="container my-5">
+
+        <!--Section: Design Block-->
+        <section class="mb-10">
+
+            <div class="d-flex justify-content-start h2">
+                <p class="display-4 fw-bold ls-tight" style="color: #e45300;">釀酒指南</p>
+            </div>
+            <div class="d-flex justify-content-start h2 mb-5">
+                <h4 class="mb-0" style="color: #998b89;">Brewing Guide</h4>
+            </div>
+            <div class="row gx-lg-5">
+                <div class="col-lg-8">
+                    <div class="mb-5">
+                        <div class="bg-image hover-overlay hover-zoom rounded-6 mb-4" data-mdb-ripple-init
+                            data-mdb-ripple-color="light">
+                            <img class="w-100" src="./img/drink/d01.png"
+                                style="max-height: 475px; object-fit: cover;" alt="Image placeholder">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(255,255,255,0.1);"></div>
+                            </a>
+                        </div>
+                        <h6 class="text-muted text-uppercase small pb-1"><a href="#!" class="text-reset">Fruit Preparation</a></h6>
+                        <h4 class="fw-bold mb-3"><a href="#!" class="text-reset">1.切塊處理</a></h4>
+                        <p class="text-truncate h5 lh-base"
+                            style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; white-space: normal">
+                        將水果去皮、去核並切成適當大小的塊狀，以利後續發酵。均勻切塊可增加接觸面積，讓糖分充分釋放，為酵母提供充足養分，確保釀造過程順利且風味均衡。
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="bg-image hover-overlay hover-zoom rounded-6 mb-4" data-mdb-ripple-init
+                            data-mdb-ripple-color="light">
+                            <img class="w-100" src="./img/drink/d02.jpg"
+                                style="max-height: 475px; object-fit: cover;" alt="Image placeholder">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(255,255,255,0.1);"></div>
+                            </a>
+                        </div>
+                        <h6 class="text-muted text-uppercase small pb-1"><a href="#!" class="text-reset">Yeast Fermentation</a></h6>
+                        <h4 class="fw-bold mb-3"><a href="#!" class="text-reset">2.酵母發酵</a></h4>
+                        <p class="text-truncate h5 lh-base"
+                            style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; white-space: normal">
+                        加入選定酵母，使水果糖分轉化為酒精與二氧化碳。控制溫度與發酵時間，可避免過度發酵或風味偏酸，確保酒香濃郁。過程中定期觀察，調整酸度與糖度，提升釀酒穩定性。
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mb-5">
+                        <div class="bg-image hover-overlay hover-zoom rounded-5 mb-4" data-mdb-ripple-init
+                            data-mdb-ripple-color="light">
+                            <img class="w-100" src="./img/drink/d03.jpg"
+                                style="height: 227px; object-fit: cover;" alt="Image placeholder">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(255,255,255,0.1);"></div>
+                            </a>
+                        </div>
+                        <h6 class="text-muted text-uppercase small pb-1"><a href="#!" class="text-reset">Filtering Pulp</a>
+                        </h6>
+                        <h5 class="fw-bold mb-3"><a href="#!" class="text-reset">3.過濾果渣</a></h5>
+                        <p style="text-align: justify;">發酵完成後，將果渣與酒液分離，確保酒體清澈。可使用濾網或布袋過濾，去除固體雜質與沉澱物。這一步驟可避免酒液口感粗糙，並提升酒的質感與穩定度。</p>
+                    </div>
+                    <div>
+                        <div class="bg-image hover-overlay hover-zoom rounded-5 mb-4" data-mdb-ripple-init
+                            data-mdb-ripple-color="light">
+                            <img class="w-100" src="img/drink/d04.jpg"
+                                style="height: 227px; object-fit: cover;" alt="Image placeholder">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(255,255,255,0.1);"></div>
+                            </a>
+                        </div>
+                        <h6 class="text-muted text-uppercase small pb-1"><a href="#!" class="text-reset">Bottling with Bubbles</a></h6>
+                        <h5 class="fw-bold mb-3"><a href="#!" class="text-reset" style="text-align: justify;">4.氣泡裝瓶</a></h5>
+                        <p>將釀好的酒進行裝瓶，若需氣泡效果，可添加二次發酵製造氣泡。密封瓶口保持二氧化碳，確保酒液氣泡細膩均勻。此步驟可延長保存期限並增添飲用樂趣。</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Section: Design Block-->
+
+    </div>
+    <!-- Container for demo purpose -->
+
+    <!-- blog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 結論&建議 -->
+    <!-- Container for demo purpose -->
+    <div class="container my-5">
+
+        <!--Section: Design Block-->
+        <section>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-7">
+                    <div class="container my-5 py-5">
+                        <div class="d-flex justify-content-center h2">
+                            <p class="display-4 fw-bold ls-tight" style="color: #e45300;">研究結論</p>
+                        </div>
+                        <div class="d-flex justify-content-center h2">
+                            <h4 class="mb-0" style="color: #998b89;">Research Conclusions</h4>
+                        </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <img class="w-100 rounded-5" src="https://mdbootstrap.com/img/new/blog/9.jpeg"
+                        style="height: 400px; object-fit: cover" alt="Image placeholder" />
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-11 col-xl-8">
+                    <p class="h3 mb-3">研究結論</p>
+
+                    <p class="lead fw-normal mb-4" style="text-align: justify;">
+                        （一）了解水果酒的釀造、影響因素及營養價值
+                        蘋果酒的釀造，其流程分成原料選擇與調整糖分、加入酵母並轉桶、熟成並滅菌等三大流程，熟成並滅菌的部分，使用無菌過濾器或巴氏殺菌，利用巴氏殺菌能降低病菌及腐敗微生物的生長速度，延長其保存期限，也避免裝瓶後，微生物產生汙染物質。影響因素包含發酵溫度、菌種差別、過濾方式、酵素添加等，過濾的部分，因天然水果的果膠會影響榨汁率，可以使用酵素來處理，但要注意超過濾處理，會使果汁香氣損失，使口感與風味不理想。在營養價值上，蘋果的營養在釀造過程，亦會被保留下來，蘋果酒含有豐富的有機酸物質與氨基酸，維生素C、維生素B1、B2及礦物質鉀、鐵、鋅、鎂等，能夠促進消化、消耗脂肪及促進體內新陳代謝還能保護血管，降低心腦血管疾病。
+
+                    </p>
+                    <p class="lead fw-normal mb-5" style="text-align: justify;">
+                        （二）應用系統化創新流程於水果酒的釀造技術
+                        本研究採用系統化創新流程（TRIZ），系統化創新是經過一定的流程、規劃、討論出來的方法提供一系列的創新工具和方法，透過識別需求、創意生成、概念開發、計劃與設計、開發與測試、市場推出以及評估與學習等步驟，導入TRIZ的40項發明原則，以提升蘋果酒的附加價值與製程創新。本研究水果酒的釀造應用系統化創新流程，包括：原理（5）合併：結合其他飲品或加入氮氣增添風味；原理（6）「普遍性」：將蘋果酒製程延伸至其他水果釀造；原理（13）「反向操作」：改變傳統壓榨法為切片釀造；原理（34）「丟棄與回收」：將釀造後的蘋果切片再製成果醬，提高資源利用率。整體流程不僅提升產品創新性，也兼顧永續與價值再造，展現TRIZ在食品開發上的實用性。
+
+                    </p>
+
+                    <p class="lead fw-normal mb-5" style="text-align: justify;">
+                        （三）建置水果酒釀造網站以釀出適合個人的酒
+本組網站提供系統化創新釀酒流程系統，提供使用者根據自己的喜好，並依照系統的指示去釀出具有標準化流程的蘋果酒。首先以「風味探索」讓使用者可以依據自己的喜好，選擇蘋果的香氣、甜度和酸度，並了解不同種的蘋果差異性，利用不同氣體的特性去增加蘋果酒的口感， 如圖3、4。使用者在選擇完符合自己喜好的酒之後，會進入下一步「釀酒指南」，使用系統化的標準釀酒步驟，逐步完成釀酒，包括切塊處理、酵母發酵、過濾果渣與氣泡裝瓶，每一項步驟都有詳細的說明，讓使用者可以輕鬆完成釀酒，如圖5、6。完成前面兩項操作後會進入到「釀造反饋」頁面，使用者依步驟進行操作，並且將各階段操作的結果拍照上傳，以確認是否和系統的釀造過程一致，完成各階段上傳回饋，使用者將獲得點數，點數累積可換取進階的酒單釀造教學，透過上傳照片與點數取得，鼓勵使用者積極回饋，從而掌握釀酒系統化流程的成功指數，如圖7、8。
+
+
+                    </p>
+
+                    <img class="w-100 rounded-5 mb-5"
+                        src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                        style="height: 400px; object-fit: cover" alt="Image placeholder" />
+
+                </div>
+            </div>
+
+        </section>
+        <!--Section: Design Block-->
+
+    </div>
+    <!-- Container for demo purpose -->
+<!-- 結論&建議 -->
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- 成員 -->
+                        <!-- Container for demo purpose -->
+                        <div class="container my-5 py-5 shadow-5">
+
+                            <!--Section: Design Block-->
+                            <section class="text-center">
+
+                                <!-- <h3 class="mb-5">小組成員</h3> -->
+                                <div class="d-flex justify-content-center h2">
+                                    <p class="display-6 fw-bold ls-tight" style="color: #e45300;">小組成員</p>
+                                </div>
+                                <div class="d-flex justify-content-center h2 mb-5">
+                                    <h4 class="mb-0" style="color: #998b89;">Team Members</h4>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-md-0 mb-4">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                            src="img/drink/01.jpg" alt="avatar" style="width: 150px;" />
+                                        <h5 class="mb-3">許恩綺</h5>
+                                    </div>
+                                    <div class="col-md-6 mb-md-0 mb-4">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                            src="img/drink/02.jpg" alt="avatar"
+                                            style="width: 150px;" />
+                                        <h5 class="mb-3">李瑜庭</h5>
+                                    </div>
+                                </div>
+
+                            </section>
+                            <!--Section: Design Block-->
+
+                        </div>
+                        <!-- Container for demo purpose -->
+                        <!-- 成員 -->
+
+
+
+
+
+
+                        <div class="text-center pt-3">
+                            <h3 style="color: #e45300;">Like this project? Share it with a friend!</h3>
+                            <div class="my-4">
+                                <a href="#!" class="link-dark"><i class="fab fa-lg fa-facebook-f me-4"></i></a>
+                                <a href="#!" class="link-dark"><i class="fab fa-instagram fa-lg me-4"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>

@@ -25,3 +25,24 @@ body {
 
 
 
+/* -------------------------------按鈕動畫 */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.pulse-btn {
+  animation: pulse 1.5s infinite;
+}
+
+
+/* -------------------------------按鈕動畫 */
+
+
+
+
+
+
+
+

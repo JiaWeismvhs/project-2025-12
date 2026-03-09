@@ -670,7 +670,7 @@ $dark-text-emphasis: $gray-200 !default;
 // scss-docs-end theme-text-variables
 
 // scss-docs-start theme-bg-subtle-variables
-$primary-bg-subtle: tint-color($primary, 85%) !default;
+$primary-bg-subtle: tint-color($primary, 15%) !default;
 $secondary-bg-subtle: tint-color($secondary, 85%) !default;
 $success-bg-subtle: tint-color($success, 85%) !default;
 $info-bg-subtle: tint-color($info, 85%) !default;

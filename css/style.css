@@ -44,7 +44,14 @@ body {
 
 
 
+.mask{
+opacity: 0;
+transition: 0.3s;
+}
 
+.bg-image:hover .mask{
+opacity: 1;
+}
 
 
 
